@@ -2,10 +2,10 @@
 % Please edit documentation in R/apPayable.R
 \name{apPayableUI}
 \alias{apPayableUI}
-\title{应收单数据同步任务生成生成器界面}
+\title{应付单数据同步任务生成生成器界面}
 \usage{
 apPayableUI(
-  tabTitle = "BYD应收单同步",
+  tabTitle = "BYD应付单同步",
   colTitles = c("操作区域", "操作区域", "显示区域"),
   widthRates = c(6, 6, 12),
   func_left = apPayableUI_left,
@@ -30,7 +30,7 @@ apPayableUI(
 返回值
 }
 \description{
-应收单数据同步任务生成生成器界面
+应付单数据同步任务生成生成器界面
 }
 \examples{
 apPayableUI()

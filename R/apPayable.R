@@ -1,4 +1,4 @@
-#' 应收单数据同步任务生成生成器界面
+#' 应付单数据同步任务生成生成器界面
 #'
 #' @param colTitles  主页标题
 #' @param widthRates 左右比例
@@ -13,7 +13,7 @@
 #'
 #' @examples
 #' apPayableUI()
-apPayableUI <- function(tabTitle ='BYD应收单同步',
+apPayableUI <- function(tabTitle ='BYD应付单同步',
                            colTitles =c('操作区域','操作区域','显示区域'),
                            widthRates =c(6,6,12),
                            func_left = apPayableUI_left,
